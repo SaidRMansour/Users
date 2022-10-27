@@ -82,7 +82,7 @@ struct userDetail: View {
 
 struct userDetail_Previews: PreviewProvider {
    
-    static var newUser = Users.UserDetail(name: Users.UserDetail.NameOfUser(title: "Hr", first: "Said", last: "Mansour"), location: Users.UserDetail.LocationOfUser(street: Users.UserDetail.LocationOfUser.StreetOfUser(number: 45, name: "Sigridsvej"), postcode: 8220, city: "Brabrand"), dob: Users.UserDetail.DateOfBirthOfUser(date: Date(), age: 25), picture: Users.UserDetail.PicturesOfUser(medium: "", large: "", thumbnail: ""))
+    static var newUser = Users.UserDetail(name: Users.UserDetail.NameOfUser(title: "Hr", first: "Said", last: "Mansour"), location: Users.UserDetail.LocationOfUser(street: Users.UserDetail.LocationOfUser.StreetOfUser(number: 45, name: "Sigridsvej"), postcode: 8220, city: "Brabrand", coordinates: Users.UserDetail.LocationOfUser.CoordinateOfUSer.init(latitude: "56.15407", longitude: "10.111434")), dob: Users.UserDetail.DateOfBirthOfUser(date: Date(), age: 25), picture: Users.UserDetail.PicturesOfUser(medium: "", large: "", thumbnail: ""))
     
     static var previews: some View {
         

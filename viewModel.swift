@@ -7,8 +7,11 @@
 
 import Foundation
 import UIKit
+import _MapKit_SwiftUI
+
 class viewModel: ObservableObject{
     @Published var users: [Users.UserDetail] = []
+    
     
     @MainActor
     //Fetch function --> Get users
@@ -55,7 +58,7 @@ class viewModel: ObservableObject{
         
         for user in users{
             
-            print("\(user.name.first) \(user.name.last) Longitude: \(user.location.coordinates?.latitude ?? "No longitude") Latitude \(user.location.coordinates?.longitude ?? "No latitude")")
+            print("\(user.name.first) \(user.name.last) Longitude: \(user.location.coordinates?.longitude ?? "No longitude") Latitude \(user.location.coordinates?.latitude ?? "No latitude")")
             
             let latitudeFromUser: Double = Double(user.location.coordinates!.latitude)!
             let longitudeFromUser: Double = Double(user.location.coordinates!.longitude)!
@@ -64,6 +67,8 @@ class viewModel: ObservableObject{
             print("Lat double: \(latitudeFromUser) Long double: \(longitudeFromUser)")
             }
     }
+    
+   
     
 }
     

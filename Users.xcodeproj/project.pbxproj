@@ -8,13 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		4331DD7B28F4080B009ECC87 /* mapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4331DD7A28F4080B009ECC87 /* mapView.swift */; };
-		4331DD7D28F40E83009ECC87 /* PinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4331DD7C28F40E83009ECC87 /* PinViewModel.swift */; };
 		43713A6F28E19EDE0020BE5F /* UsersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43713A6E28E19EDE0020BE5F /* UsersApp.swift */; };
 		43713A7128E19EDE0020BE5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43713A7028E19EDE0020BE5F /* ContentView.swift */; };
 		43713A7328E19EE00020BE5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43713A7228E19EE00020BE5F /* Assets.xcassets */; };
 		43713A7628E19EE00020BE5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43713A7528E19EE00020BE5F /* Preview Assets.xcassets */; };
 		43713A7E28E19F200020BE5F /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43713A7D28E19F200020BE5F /* model.swift */; };
-		43713A8228E19F550020BE5F /* networkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43713A8128E19F550020BE5F /* networkService.swift */; };
 		43713A8428E19F6E0020BE5F /* viewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43713A8328E19F6E0020BE5F /* viewModel.swift */; };
 		43E77B7728E5BE8500423999 /* userDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E77B7628E5BE8500423999 /* userDetail.swift */; };
 		43E77B7928E5D6F300423999 /* creatUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E77B7828E5D6F300423999 /* creatUser.swift */; };
@@ -22,14 +20,12 @@
 
 /* Begin PBXFileReference section */
 		4331DD7A28F4080B009ECC87 /* mapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapView.swift; sourceTree = "<group>"; };
-		4331DD7C28F40E83009ECC87 /* PinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinViewModel.swift; sourceTree = "<group>"; };
 		43713A6B28E19EDE0020BE5F /* Users.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Users.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43713A6E28E19EDE0020BE5F /* UsersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersApp.swift; sourceTree = "<group>"; };
 		43713A7028E19EDE0020BE5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		43713A7228E19EE00020BE5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43713A7528E19EE00020BE5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		43713A7D28E19F200020BE5F /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
-		43713A8128E19F550020BE5F /* networkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = networkService.swift; sourceTree = "<group>"; };
 		43713A8328E19F6E0020BE5F /* viewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = viewModel.swift; path = ../viewModel.swift; sourceTree = "<group>"; };
 		43E77B7628E5BE8500423999 /* userDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userDetail.swift; sourceTree = "<group>"; };
 		43E77B7828E5D6F300423999 /* creatUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = creatUser.swift; sourceTree = "<group>"; };
@@ -67,9 +63,7 @@
 			children = (
 				43713A7D28E19F200020BE5F /* model.swift */,
 				43713A8328E19F6E0020BE5F /* viewModel.swift */,
-				43713A8128E19F550020BE5F /* networkService.swift */,
 				43E77B7628E5BE8500423999 /* userDetail.swift */,
-				4331DD7C28F40E83009ECC87 /* PinViewModel.swift */,
 				4331DD7A28F4080B009ECC87 /* mapView.swift */,
 				43E77B7828E5D6F300423999 /* creatUser.swift */,
 				43713A7028E19EDE0020BE5F /* ContentView.swift */,
@@ -158,7 +152,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43713A8228E19F550020BE5F /* networkService.swift in Sources */,
 				4331DD7B28F4080B009ECC87 /* mapView.swift in Sources */,
 				43E77B7928E5D6F300423999 /* creatUser.swift in Sources */,
 				43713A7128E19EDE0020BE5F /* ContentView.swift in Sources */,
@@ -166,7 +159,6 @@
 				43713A8428E19F6E0020BE5F /* viewModel.swift in Sources */,
 				43713A6F28E19EDE0020BE5F /* UsersApp.swift in Sources */,
 				43E77B7728E5BE8500423999 /* userDetail.swift in Sources */,
-				4331DD7D28F40E83009ECC87 /* PinViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
